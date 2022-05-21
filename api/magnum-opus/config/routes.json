@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/magnum-opus",
+      "handler": "magnum-opus.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/magnum-opus",
+      "handler": "magnum-opus.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/magnum-opus",
+      "handler": "magnum-opus.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

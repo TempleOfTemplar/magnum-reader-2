@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "magnum_opuses",
+  "info": {
+    "name": "magnum-opus"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
